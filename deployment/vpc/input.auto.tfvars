@@ -6,5 +6,10 @@ instances = {
     enable_dns_support   = true
     enable_dns_hostnames = true
     environment          = "dev"
+
+    tags = {
+      TriggerTest = "hcp-vcs-2"
+      Purpose     = "lab"
+    }
   }
 }

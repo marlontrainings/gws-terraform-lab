@@ -6,5 +6,10 @@ instances = {
     cidr_block = "10.4.1.0/24"
     az         = "ap-southeast-1a"
     environment = "dev"
+
+    tags = {
+      TriggerTest = "hcp-vcs"
+      Purpose     = "lab"
+    }
   }
 }
