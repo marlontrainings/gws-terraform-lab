@@ -8,7 +8,7 @@ instances = {
     environment          = "dev"
 
     tags = {
-      TriggerTest = "hcp-vcs-2"
+      TriggerTest = "hcp-vcs-1"
       Purpose     = "lab"
     }
   }
